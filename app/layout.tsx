@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "ProducteurAI Bank",
-  description: "ProducteurAI Banking platform allow users to connect to their bank accounts, transfer funds and AI fintech Accelerator venture lab product developed by TyrusAI, Ty L. Collington, Technpreneur, CTP.",
+  description: "ProducteurAI Open Banking platform allow users to connect to their bank accounts, transfer funds, data network and payments platform to cut costs, onboard and convert more customers and AI fintech Accelerator venture lab product developed by TyrusAI, Ty L. Collington, Technpreneur, CTP.",
   icons: {
     icon: 'icons/favicon-producteurai.png'
   }
