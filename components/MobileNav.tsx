@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import Footer from "./Footer";
 
 
 const MobileNav = ({ user }: MobileNavProps) => {
@@ -29,7 +30,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     />
                 </SheetTrigger>
                 <SheetContent side="left" className="border-none bg-white">
-                    <Link href="/" className='cursor-pointer items-center gap-1 px-4'>
+                    <Link href="/" className='cursor-pointer flex items-center gap-1 px-4'>
                         <Image src="/icons/logo.svg" width={34} height={34} alt='ProducteurAI Banking Platform' />
                         <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>Producteur</h1>
 
@@ -61,7 +62,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                             </nav>
                         </SheetClose>
 
-                        FOOTER
+                        <Footer user={user} type="mobile"/>
                     </div>
                 </SheetContent>
             </Sheet>
